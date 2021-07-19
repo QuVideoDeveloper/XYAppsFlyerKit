@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/QuVideoDeveloper/XYAppsFlyerKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Frenzy' => 'jialu.feng@quvideo.com' }
-  s.source           = { :git => 'https://github.com/QuVideoDeveloper/XYAppsFlyerKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:QuVideoDeveloper/XYAppsFlyerKit.git', :tag => s.version.to_s }
   s.ios.deployment_target = '9.0'
   s.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
