@@ -74,6 +74,7 @@ NSString * const XYAFKeyFBAdId       = @"ad_id";
     [AppsFlyerLib shared].appsFlyerDevKey = appsFlyerDevKey;
     [AppsFlyerLib shared].appleAppID = appleAppID;
     [AppsFlyerLib shared].delegate = self;
+    [[AppsFlyerLib shared] waitForATTUserAuthorizationWithTimeoutInterval:20];
 #if DEBUG
     [AppsFlyerLib shared].useUninstallSandbox = NO;
 #endif
