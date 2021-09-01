@@ -31,6 +31,7 @@ FOUNDATION_EXTERN NSString * const XYAppsFlyerKeyFBAdId;
 FOUNDATION_EXTERN NSString * const XYAppsFlyerKeyAFChannel;
 FOUNDATION_EXTERN NSString * const XYAppsFlyerKeyAFAdset;
 FOUNDATION_EXTERN NSString * const XYAppsFlyerKeyAFAD;
+FOUNDATION_EXTERN NSString * const XYAppsFlyerKeyAD_Set;
 
 @interface XYAppsFlyerMgr : NSObject
 

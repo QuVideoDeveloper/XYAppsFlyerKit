@@ -29,6 +29,7 @@ NSString * const XYAppsFlyerKeyFBAdId       = @"af_fb_ad_id";
 NSString * const XYAppsFlyerKeyAFChannel    = @"af_channel";
 NSString * const XYAppsFlyerKeyAFAdset      = @"af_adset";
 NSString * const XYAppsFlyerKeyAFAD         = @"af_ad";
+NSString * const XYAppsFlyerKeyAD_Set       = @"ad_set";
 
 /* Private */
 NSString * const XYAFKeyIsFirstLaunch       = @"is_first_launch";
@@ -145,6 +146,7 @@ NSString * const XYAFKeyFBAdId       = @"ad_id";
         [dict setValue:[installData xyStringForKey:XYAppsFlyerKeyAFChannel] forKey:XYAppsFlyerKeyAFChannel];
         [dict setValue:[installData xyStringForKey:XYAppsFlyerKeyAFAD] forKey:XYAppsFlyerKeyAFAD];
         [dict setValue:[installData xyStringForKey:XYAppsFlyerKeyAFAdset] forKey:XYAppsFlyerKeyAFAdset];
+        [dict setValue:[installData xyStringForKey:XYAppsFlyerKeyAD_Set] forKey:XYAppsFlyerKeyAD_Set];
         
         [self saveAttribution:dict];
     }
