@@ -72,6 +72,7 @@ NSString * const XYAFKeyFBAdId       = @"ad_id";
 
 - (void) xy_appsFlyerInitWithAppsFlyerDevKey:(NSString *)appsFlyerDevKey appleAppID:(NSString *)appleAppID {
     
+    [AppsFlyerLib shared].isDebug = YES;
     [AppsFlyerLib shared].appsFlyerDevKey = appsFlyerDevKey;
     [AppsFlyerLib shared].appleAppID = appleAppID;
     [AppsFlyerLib shared].delegate = self;
